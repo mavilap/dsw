@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    header{
+        background-color: gray;
+        padding: 30px;
+    }
+    nav{
+        background-color: darkslateblue;
+        padding: 10px;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section{
+        grid-column: 1/4;
+        background-color: indigo;
+        height: 400px;
+    }
+    aside{
+        background-color: lightcoral;
+    }
+    footer{
+        background-color: green;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header>Encabezado</header>
+    <nav>Barra de navegación</nav>
+    <div class="contenedor">
+        <section>
+            <article>Articulo 1</article>
+            <article>Articulo 2</article>
+        </section>
+        <aside> <h4>Fan page</h4>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>Pie de página</footer>
+</body>
+</html>
